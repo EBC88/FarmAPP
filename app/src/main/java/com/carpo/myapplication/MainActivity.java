@@ -25,7 +25,7 @@ import static com.carpo.myapplication.R.layout.activity_main;
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
-// Prueba.
+// Prueba..
     private Cursor c;
 
 
