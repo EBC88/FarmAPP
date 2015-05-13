@@ -26,7 +26,7 @@ public class MyAlarmService extends Service {
 
 
     }
-//Aquí se intenta hacer la notificacion
+//Aquí se intenta hacer la notificacionn
     public void createNotification(Context context, String msg, String msgText, String msgAlert){
 
         PendingIntent notificInent = PendingIntent.getActivity(context, 0,
