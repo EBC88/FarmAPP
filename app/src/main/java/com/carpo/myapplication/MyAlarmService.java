@@ -19,18 +19,18 @@ public class MyAlarmService extends Service {
     public void onCreate() {
 
 // TODO Auto-generated method stub
-        //llamar al metodo para crear la notificación
+        //llamar al metodo para crear la notificacion
         createNotification(this, "Times UP", "Hora de tomar la pastilla", "Alert");
 
 
 
 
     }
-//Aquí se intenta hacer la notificacionn
+//Aqui se intenta hacer la notificacionn
     public void createNotification(Context context, String msg, String msgText, String msgAlert){
 
         PendingIntent notificInent = PendingIntent.getActivity(context, 0,
-                new Intent(context, nuevactividad.class), 0);
+                new Intent(context, MoreInfo.class), 0);
 
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context)
                 .setContentTitle(msg)
