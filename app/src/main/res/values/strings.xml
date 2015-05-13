@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btAcept">Aceptar</string>
+    <string name="btCancel">Cancelar</string>
+    <string name="btAgregar">Agregar nuevo</string>
+    <string name="btEditar">Editar</string>
+    <string name="btEliminar">Eliminar</string>
+    <string name="btSalir">Salir</string>
+    <string name="agregarnuevo">Agregar nuevo</string>
+    <string name="btlisto">Aceptar</string>
+    <string name="btOlvidar">Cancelar</string>
+    <string name="verDatos">verdatos</string>
+    <string name="btGuardar">Guardar</string>
+    <string name="editarlos">Editar</string>
+    <string name="tiempo">Agregar hora</string>
+
+
+</resources>
